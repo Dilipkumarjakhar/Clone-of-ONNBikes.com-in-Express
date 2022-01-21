@@ -337,7 +337,7 @@ function getpopup(item)
 { 
 	localStorage.setItem("bikedata",JSON.stringify(item));
 	itemid=item._id;
-	localStorage.setItem("bikeid",itemid)
+	
 	popup.classList.add('active');
 }
 
