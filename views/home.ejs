@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+    <link rel="stylesheet" href="css/login.css">
+
+    <link rel="stylesheet" href="css/home.css">
+    <script src="https://kit.fontawesome.com/40bdc223da.js" crossorigin="anonymous"></script>
+  <style>
+     #blur{ 
+         display:fixed; 
+         background:fixed; 
+        }  
+   </style> 
+  </head>
+  <body>
+    <!-- below navbar -->
+    <div id="blur">
+    <div id="shole">
+      <div id="container">
+        <div id="image"></div>
+
+        <div id="fw13Nav" class="navbar">
+          <div class="nav">
+            <div class="nav-child" id="why">WHY ONN?</div>
+            <div class="nav-child" id="fleet" onclick="toggle3()">FLEET AND PRICING</div>
+            <div class="nav-child" id="safety" onclick="safetyKhol()" ><a href="safety">SAFETY</a></div>
+            
+            <div class="nav-child" id="logo">
+              <img
+                id="logoONN"
+                src="../../images/img/ONN-logo-unit-without-shadow.png"
+                alt=""
+              />
+            </div>
+          
+            <div onclick="faqKiyaJaye()" class="nav-child" id="faq"> <a href="faq"> FAQ </a>   </div>
+              
+            <div class="nav-child" id="welcome">Login/Signup</div>
+            <div class="nav-child" id="number" onclick="khojlenge()">+919876543210</div>
+          </div>
+        </div>
+
+        <div id="banner">
+          <h2>RENT TODAY,OWN TOMORROW</h2>
+          <p>ZERO DOWN PAYMENT,FLEXIBAL OWNERSHIP</p>
+        </div>
+
+        <div id="ridenow-sac">
+          <div id="under-rideNow">
+            <div onclick="toggle1()" id="TheBangaluru">BENGALURU</div>
+            <div id="hourTime">HOURLY/DAILY</div>
+            <div id="Ridehour">
+             <div id='dil'> START DATE</div>
+            <input id="tarikhPeTarikh1" type="date" placeholder="START DATE">
+            </div>
+            <div id="Endride" type="DATE">
+                <div id='dil'>END DATE</div>
+              <input id="tarikhPeTarikh2"  type="date">
+            </div>
+            <div id="realRidenow" onclick="TARIKH()" >
+                <a href="/bikedisplay">RIDE NOW</a></div>
+        
+          </div>
+        </div>
+
+      
+
+
+      </div>
+      <!-- pop of bengalur selected -->
+      <div id="TheDestinyChose">
+        <div id="belowTheDestinyChose">
+          <div id="ThecityDetail">
+            <input type="text" placeholder="Enter your city to search">
+            <i id="GabbarSing" onclick="toggle1()" class="far fa-times-circle"></i>
+
+            <div id="someTextabout">
+              <p id="youHave">You've selected</p>
+              <h2>bengaluru</h2>
+              <p id="tellUs">Tell us where you are and <br>we make sure you #RideONN</p>
+            </div>
+          </div>
+
+          <div id="TheCityList">
+            <div><img src="../../images/img/bengaluru.png" alt=""><h5>BENGALURU</h5></div>
+            <div><img src="../../images/img/hyderabad.png" alt=""><H5>HYDERABAD</H5></div>
+            <div><img src="../../images/img/jaipur.png" alt=""><H5>JAIPUR</H5></div>
+            <div><img src="../../images/img/gurugram.jpeg" alt=""><H5>GURUGRAM</H5></div>
+            <div><img src="../../images/img/mysuru.png" alt=""><h5>MYSURU</h5></div>
+            <div><img src="../../images/img/udaipur.png" alt=""><h5>UDAIPUR</h5></div>
+            <div><img src="../../images/img/ahmedabad.png" alt=""><h5>AHEMDABAD</h5></div>
+          
+          </div>
+        </div>
+      </div>
+</div>
+      <!-- welcome page        -->
+      
+      <div id="popup420">
+           
+           <div id="main420">
+
+            <div id="left" class="boxes">
+              <img src="https://www.onnbikes.com/img/ONN-logo-unit-without-shadow.png" alt="">
+        
+            </div>
+            <div id="right" class="boxes">
+                <div id="TheCross" >
+
+                    <i class="fas fa-times"></i>
+                </div>
+              <div id="logsin">
+                <div id='ls'>
+                  <li><a href="#" onclick="log()">login</a></li>
+                  <li><a href="" class='line'>|</a> </li>
+                  <li><a href="#" onclick="sig()" id='x'>Signup</a></li>
+                </div>
+               
+        
+              </div>
+            
+              <div id="facgoogle">
+                <div class="facgoog" id='fc'>
+        
+                  <div id="fcicon" class="f">
+                    <i class="fab fa-facebook-f"></i>
+                  </div>
+                  <div id='facebook' class="f">
+                    <li>
+        
+                      <a href="#">Facbook</a>
+                    </li>
+                  </div>
+        
+                </div>
+                <div class="facgoog" id='go'>
+                  <div id='gicon' class='g'>
+        
+                    <i class="fab fa-glide-g"></i>
+                  </div>
+                  <div id='google' class='g'>
+                    <li>
+        
+                      <a href="#">Google+</a>
+                    </li>
+        
+                  </div>
+                </div>
+        
+              </div>
+        
+              <div id="or">
+        
+              </div>
+              <div id="input">
+                  <form action="/register" method="post">
+
+                      <input type="text" placeholder="Enter fname" id="fname" name="firstname" required>
+                      <input type="text" placeholder="Enter lname" id="lname" name="lastname" required>
+                      <input type="email" placeholder="Enter email" id="email" name="email" required>
+                      <input type="password" placeholder="Enter password" id="password" name="password" required>
+                      <input type="number" placeholder="Enter phone number" id="mobile" name="mobile" required>
+                      <button type="submit" id="lo">submit</button>
+                       
+                    </form>
+                </div>
+                <div id="inputs">
+                    <form action="/login" method="post">
+                        
+                        <input type="email" placeholder="Email Id/Phone Number" id='em' name="email">
+                        <input type="password" placeholder="Password" id='pass' name="password">
+                        <button type="submit" id="lo">Login</button>
+                        
+                        </form>
+                        
+                        <div id="check">
+                            <div id="inp">
+                                <div id="ch">
+                                    <input type="checkbox" name="" id="">
+                                </div>
+                                <div id="Rem">
+                                    <p>Remember me</p>
+                                </div>
+                            </div>
+                            <div id="forget">
+                                <li><a href="#">Forgot?</a> </li>
+                            </div>
+                        </div>
+                        
+                    </div>
+                   
+                    
+                    <div id="text">
+                        <li> <a href="#" onclick="log()">New to ONN Bikes?</a> </li>
+                <li> <a href="#" onclick="sig()">Signup</a> </li>
+                    </div>
+            </div>
+          </div>
+       
+        </div>
+
+      <!-- fleet and pricing -->
+  <!-- options -->
+  <div id="main">
+    <!-- <i onclick="toggle3()" class="far fa-times-circle"></i> -->
+    <!-- <i  onclick="toggle3()"class="fas fa-times-circle"></i> -->
+    <div class="boxes1">
+        <select name="" id="sec">
+            <option value="bangalure">Bengaluru</option>
+            <option value="jaipur">Jaipur</option>
+            <option value="hadrabad">Hadrabad</option>
+            <option value="pune">pune</option>
+            <option value="ahmedabad">Ahmedabad</option>
+            <option value="mysuru">mysuru</option>
+            <option value="udaipur">udaipur</option>
+            <option value="gurugram">Gurugram</option>
+        </select>
+        <div id="lshow">
+            
+        </div>
+    </div>
+    <div class="boxes2">
+
+        <div id="slidercont">
+            
+            <div class="slider" id="slider">
+                <div class="slide" id="slide">
+                    
+                </div>
+                <button class="ctrl-btn pro-prev">&#10094;</button>
+                <button class="ctrl-btn pro-next">&#10095;</button>
+                <i  onclick="toggle3()"class="fas fa-times-circle"></i>
+
+            </div>
+            <!-- <button id="slidercontviewbtn"><a href="hair.html">view more</a></button> -->
+        </div>
+    </div>
+</div>                     
+
+
+
+    </div>
+
+    <!-- above navvbar -->
+ 
+
+
+    <!-- constact us -->
+    <!--  -->
+      <!-- rental bike  -->
+
+      <div id="rental-app">
+        <div>
+            <a href="https://play.google.com/store/apps/details?id=moblie.bikerenterz&hl=en"> <img class="img-size" src="C:\Users\Abhishek Mishra\OneDrive\Desktop\project\ONNBiKES-constructor\image\download-play store.png" alt=""></a>
+            
+    
+        </div>
+        <div>
+            <h2 style="margin-top: 60px;">ONN Bikes Rental App</h2>
+        </div>
+        <div>
+            <a href="https://apps.apple.com/us/app/onn-bikes/id1067173292?ls=1"> <img class="apple-img img-size"
+                src="C:\Users\Abhishek Mishra\OneDrive\Desktop\project\ONNBiKES-constructor\image\download-appple store.png" alt=""> </a>
+        </div>
+    </div>
+    
+    <div id="why-onn">
+    
+        <div class="contact_us">
+            <h1>Why ONN?</h1>
+            <p>We simplified bike rentals, so you can focus on what's important to you.</p>
+        </div>
+    
+        <div id="why-sec">
+    
+            <div>
+                <div style="text-align: center;">
+                    <img class="why-img" src="https://www.onnbikes.com/img/Safe-Rides-Icon.svg" alt="img">
+                    <h3>Safe Rides</h3>
+                </div>
+                <p style="text-align: center; line-height: 30px; padding: 2%;">Your safety is our priority. From
+                    sanitizing all bikes before every use, to extensive on-ground safety measures, your rides with ONN
+                    will always be safe and reliable. We also offer helmets on-demand.</p>
+            </div>
+    
+            <div>
+                <div style="text-align: center;">
+                    <img class="why-img" src="https://www.onnbikes.com/img/Flexible-Ownership.svg" alt="img">
+                    <h3>Flexible Ownership</h3>
+                </div>
+                <p style="text-align: center; line-height: 30px; padding: 2%;">Enjoy the freedom of owning a two-wheeler
+                    without the hefty down-payments, EMIs and paperwork. Now choose from rent-to-own, monthly/quarterly
+                    bookings, and even daily plans.</p>
+            </div>
+    
+            <div>
+                <div style="text-align: center;">
+                    <img class="why-img1" src="https://www.onnbikes.com/img/Smarter-Mobility.svg" alt="img">
+                    <h3>Smarter Mobility</h3>
+                </div>
+                <p style="text-align: center; line-height: 30px; padding: 2%;">With your trusty ONN app, you can choose
+                    any bike, make instant payments, get offers, and manage all aspect of your ONN experience right from
+                    the comfort and ease of your mobile app.</p>
+            </div>
+    
+            <div>
+                <div style="text-align: center;">
+                    <img style="margin-top: 30px;" class="why-img" src="https://www.onnbikes.com/img/ONN-Stations.svg" alt="img">
+                    <h3>ONN Stations</h3>
+                </div>
+                <p style="text-align: center; line-height: 30px; padding: 4%;">Your local ONN Station is here to make
+                    ensure your two-wheeler experience is flawless. At your neighborhood station, you get to pick any
+                    bike, get maintenance, sanitized, and a lot more.</p>
+            </div>
+    
+        </div>
+    
+    </div>
+    
+    <div id="featured">
+    
+        <div class="contact_us">
+            <h1>Featured On</h1>
+            <p>Our complete press coverage.</p>
+        </div>
+    
+        <div id="feature">
+            <div> <a href="https://www.aninews.in/news/business/business/onn-bikes-raises-rs-45-cr-funding-towards-expansion201711201813040001/" target="_blank"><img class="img-size" src="https://aniportalimages.s3.amazonaws.com/static/img/logo-black.png" alt=""></a>
+            </div>
+            <div> <a href="https://www.business-standard.com/article/news-ani/onn-bikes-raises-rs-4-5-cr-funding-towards-expansion-117112000903_1.html" target="_blank"><img class="img-size" style="margin-top: 12px;"
+                        src="https://bsmedia.business-standard.com/include/_mod/site/html5/images/business-standard-logo.png"
+                        alt=""></a></div>
+            <div> <a href="http://bwdisrupt.businessworld.in/article/ONN-Bikes-Raises-Pre-Series-A-Investment-from-Z-Nation-Lab-JITO-Angels-and-Venture-Catalysts/20-11-2017-132233/" target="_blank"><img class="img-size" src="http://bwdisrupt.businessworld.in/static/images/full-Disrupt-logo.png" alt=""></a>
+            </div>
+            <div> <a href="https://www.thenewsminute.com/article/bike-rental-startup-onn-bikes-raises-692000-pre-series-round-led-z-nation-lab-71926" target="_blank"><img class="img-size"src="https://www.thenewsminute.com/sites/all/themes/tnm/images/logo-white-bg.png"
+                        alt=""></a></div>
+            <div> <a href="https://www.vccircle.com/bike-rentals-startup-onn-bikes-raises-692k-in-pre-series-a-funding" target="_blank"><img class="img-size" src="https://staticassets.vccircle.com/images/VCC-logo.svg" alt=""></a></div>
+        </div>
+    
+    </div>
+
+    <!-- feature sec end  -->
+
+    <!-- contact us start -->
+    <div class="contact_us">
+        <h1>Contact US</h1>
+        <p>Any Bike Renting Issue? Feel Free to Contact us.</p>
+    </div>
+
+    <div id="name_location">
+        <div id="name_sec">
+
+            <div id="fl_name">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+            </div>
+
+            <input type="email" placeholder="Email"><br>
+            <input type="number" placeholder="Mobile Number"><br>
+            <select name="" id="opt">
+                <option value="beng">BENGALURU</option>
+                <option value="">HYDERABAD</option>
+                <option value="">JAIPUR</option>
+                <option value="">GURUGRAM</option>
+                <option value="">MYSURU</option>
+                <option value="">PUNE</option>
+                <option value="">UDAIPUR</option>
+                <option value="">AHMEDABAD</option>
+                <option value="">FRANCHISE</option>
+            </select><br>
+
+            <textarea name="" id="" cols="30" rows="5" placeholder="Message"></textarea><br>
+            <button>Submit</button>
+        </div>
+
+        <div id="location_sec">
+
+            <input type="button" id="mum" value="MUMBAI - CORPORATE HQ" onclick="hidedata(this)">
+            <div id="mum-add">
+                <h4>2021 MOTOCRUIZER TECHNOLOGIES INDIA PVT.LTD. ALL RIGHTS RESERVED</h4>
+                <p>Office No. 8, Floor-3, Plot-422, Nav Bhavna, Swatantrya Veer Savarkar Road, Prabhadevi Mumbai Mumbai
+                    City MH
+                    400025 IN</p>
+            </div>
+            <input type="button" id="mum" value="BENGALURU" onclick="hidedata2(this)">
+            <div id="bang-add">
+                <ul>
+                    <li>KORAMANGALA</li>
+                </ul>
+                <p class="fsmall">No 150/1 and 2, Hosur Main Road, Opposite Big Bazaar, Next to Raja Honda, Koramangala,
+                    Bengaluru - 560095</p>
+                <ul>
+                    <li>ELECTRONIC CITY</li>
+                </ul>
+                <p class="fsmall">#634/472, Doddathogur, Velankani Gate, Electronic City Phase 1, Electronics City
+                    Phase,Bengaluru 560100</p>
+                <ul>
+                    <li>MS RAMAIAH COLLEGE</li>
+                </ul>
+                <p class="fsmall">Ground Floor, Sree Premprasad Complex, Opposite Ramaiah Hospital, New BEL Road, M S
+                    Ramaiah
+                    College, Bengaluru - 560054</p>
+                <ul>
+                    <li>KUNDALAHALLI</li>
+                </ul>
+                <p class="fsmall">Munni Reddy Complex, Varthur Main Road, Opposite Nadhini Wines, Silver Springs Layout,
+                    Kundalahalli, Bengaluru - 560066</p>
+                <ul>
+                    <li>YELAHANKA</li>
+                </ul>
+                <p class="fsmall">200/1, KV SR Layout, Kattigenahalli, Bagalur Main Road, Next to Reliance Fresh,
+                    Bengaluru -
+                    560063</p>
+                <ul>
+                    <li>HSR 7TH SECTOR</li>
+                </ul>
+                <p class="fsmall">NO 179 , 9th Main, 7th Sector, Hsr Layout, Bangalore 560102, Karnataka, India</p>
+                <ul>
+                    <li>SILK BOARD SRCM</li>
+                </ul>
+                <p class="fsmall">28, Hosur Road, Madiwala, Balaji Nagar, BTM Layout 1, Central Silk Board Colony, Stage
+                    2, BTM
+                    Layout, Bengaluru, Karnataka 560068</p>
+                <ul>
+                    <li>ELECTRONIC CITY HUB</li>
+                </ul>
+                <p class="fsmall">#634/472, Doddathogur, Velankani Gate, Electronic City Phase 1, Electronics City
+                    Phase,Bengaluru 560100</p>
+
+            </div>
+
+            <input type="button" id="mum" value="HYDERABAD" onclick="hidedata3(this)">
+            <div id="hyd">
+                <ul>
+                    <li>MADHAPUR</li>
+                </ul>
+                <p class="fsmall">Plot no 539,under apna bazar super market,100ft road,ayyapa society,chanda naik
+                    nagar,Madhapur,500081</p>
+                <ul>
+                    <li>GACHIBOWLI</li>
+                </ul>
+                <p>Plot 60, Flat 101, Vision Ultima building, Jayabehri enclave, opp dog park, Gachibowli 500032</p>
+                <ul>
+                    <li>AMEERPET</li>
+                </ul>
+                <p class="fsmall">Swathi anukar basement, Beside Aditya trade Center,Ameerpet 500018</p>
+                <ul>
+                    <li>DILSUKHNAGAR</li>
+                </ul>
+                <p class="fsmall">16-2-741/29 & 37, Anushka Towers, Bank colony, New malakpet, Dilsukhnagar, Beside DTDC
+                    Courier
+                    & Oasis Reproductive Hospital, Hyderabad, Telangana 500060</p>
+                <ul>
+                    <li>SECUNDERABAD</li>
+                </ul>
+                <p class="fsmall">GHMC parking, Opp Yashoda Hospital,CMR shopping mall Lane, Secunderabad</p>
+                <ul>
+                    <li>RAIDURGAM POLICE COMMISSIONARATE</li>
+                </ul>
+                <p class="fsmall">Sybratic Suits,Jayabheri Pine Valley,Beside Care hospital,Raidurgam-32</p>
+                <ul>
+                    <li>CHANDA NAGAR</li>
+                </ul>
+                <p class="fsmall">Akshita Spaces, Second Floor, Plot # 194p, Rajendar Reddy Nagar Colony, Ameenpur Road,
+                    Chanda
+                    Nagar, Hyd -500050.</p>
+                <ul>
+                    <li>HYDERABAD PARTNER</li>
+                </ul>
+                <p class="fsmall">Mini Gulshan colony, Opposite lead grammer school, Shaikpet, Golconda, Hyderabad
+                    500008</p>
+            </div>
+
+            <input type="button" id="mum" value="JAIPUR" onclick="hidedata4(this)">
+            <div id="jai">
+                <ul>
+                    <li>GT - GAURAV TOWER</li>
+                </ul>
+                <p class="fsmall">Malviya Nagar Road, D-Block, Malviya Nagar, D-Block, Crystal Court, Malviya Nagar,
+                    Jaipur,
+                    Rajasthan 302017</p>
+                <ul>
+                    <li>GOLD SOUK GRAND MALL -JAWAHAR CIRCLE</li>
+                </ul>
+                <p class="fsmall">Gold Souk Grand Mall (Near Hotel Lalit, Basement 2 Parking), Jaipur, Rajasthan 302001
+                </p>
+                <ul>
+                    <li>C SCHEME</li>
+                </ul>
+                <p class="fsmall">Man Upasana C-44 Sardar Patel Marg Panch Batti, C Scheme, Ashok Nagar Jaipur,
+                    Rajasthan 302001
+                </p>
+            </div>
+
+            <input type="button" id="mum" value="GURUGRAM" onclick="hidedata5(this)">
+            <div id="guru">
+                <ul>
+                    <li>BIKE SURGEON</li>
+                </ul>
+                <p class="fsmall">51/19, Bhim nagar, New Railway Rd, Gurugram, HR-122001</p>
+            </div>
+
+            <input type="button" id="mum" value="MYSURU" onclick="hidedata6(this)">
+            <div id="mys">
+                <ul>
+                    <li>INFOSYS</li>
+                </ul>
+                <p class="fsmall">Shobhja Gate, Hebbal Industrial Area, Meenakunte, Hebbal Industrial Estate, Mysuru,
+                    Karnataka
+                    570016</p>
+                <ul>
+                    <li>GOKULAM</li>
+                </ul>
+                <p class="fsmall">350, 5th Main Rd, Gokulam 2nd Stage, Gokulam, Mysuru, Karnataka 570002</p>
+            </div>
+
+            <input type="button" id="mum" value="PUNE" onclick="hidedata7(this)">
+            <div id="pune">
+                <p></p><br>
+            </div>
+
+            <input type="button" id="mum" value="UDAIPUR" onclick="hidedata8(this)">
+            <div id="uda">
+                <ul>
+                    <li>UDAIPOLE</li>
+                </ul>
+                <p class="fsmall">Shop NO-6, Arihant Plaza ,Opposite ICICI Bank Udaipole ,Udaipur-313001</p>
+            </div>
+
+            <input type="button" id="mum" value="AHMEDABAD" onclick="hidedata9(this)">
+            <div id="ahm">
+                <ul>
+                    <li>VIJAY CROSS ROAD</li>
+                </ul>
+                <p class="fsmall">The Link, Nr. Vijay Cross Road, Navrangpura, Ahmedabad 380009</p>
+            </div>
+
+            <input type="button" id="mum" value="GURGAON" onclick="hidedata10(this)">
+            <div id="gur">
+                <ul>
+                    <li><b>Omaxe celebration mall</b></li>
+                </ul>
+                <p class="fsmall">2nd floor, office, near Subash chowk, gurgaon 122001</p>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- contact us end -->
+
+    <div id="faqs">
+
+        <div class="contact_us">
+            <h1 style="margin-top: 30px;">Top FAQs</h1>
+            <p>Renting a Bike should be Easy, Like our FAQs.</p>
+        </div>
+
+        <div id="box">
+            <div id="box-1">
+
+                <h3> <i class="fas fa-circle"></i> How do I pay ?</h3>
+                <p style="margin-top: -10px;text-align: left;">You can pay online using debit/credit card or e-wallets. You can also pay at the hub station during
+                    your vehicle pick-up.</p>
+
+
+                <h3> <i class="fas fa-circle"></i> Where can I pick up the bike from?</h3>
+                <p style="margin-top: -10px;text-align: left;">While booking your bike, you’ll be given an option to select a pick-up location in your vicinity.</p>
+               <br>
+
+            </div>
+
+            <div id="box-2">
+                <h3> <i class="fas fa-circle"></i> What documents do I need to show while booking?</h3>
+                <p style="margin-top: -10px;text-align: left;">You need to show your original valid driving license and submit any one original government verified
+                    ID proof. </p>
+
+                <h3> <i class="fas fa-circle"></i> Will I be getting a complimentary helmet?</h3>
+                <p style="margin-top: -10px;text-align: left;">Due to COVID-19 pandemic, we avoid providing helmets to customers. We suggest customers to bring
+                    their own helmets.</p>
+            </div>
+
+        </div>
+
+        <div id="para">
+            <p>If you have any more doubts, please visit our <a href="">FAQ Section</a>
+                Our Daily Bike Renting Plan is the most affordable plan in India. Check out our Fleet and Pricing
+                section on top for more detailed information and if you are a bike enthusiast, check out our <a
+                    href="">Blog</a>
+                Announcing our exclusive association with <a href="">StrodeBike - Smart Electric Cycles</a> enabled with
+                ONN Nucleus to provide best riding experience.</p>
+        </div>
+
+        <div id="bikes">
+            <h2 style="padding: 15px 0;">Popular Bikes for Rent:</h2>
+            <div id="popular-bikes">
+
+                <div>
+                    <span>Honda Activa for rent</span><br><br>
+                    <span>Pulsar 150 for rent</span><br><br>
+                    <span>Royal Enfield 350 Classic for rent</span><br><br>
+                    <span>Dominar 400 ABS for rent</span><br><br>
+                    <span>Pulsar NS 200 for rent</span>
+
+                </div>
+                <div>
+                    <span>Yamaha FZ for rent</span><br><br>
+                    <span>Honda Dio for rent</span><br><br>
+                    <span>Avenger 220 Cruise for rent</span><br><br>
+                    <span>Bajaj CT 100 for rent</span><br><br>
+                    <span>Avenger 220 Street for rent</span>
+
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+
+    </div>
+
+    <!-- footer part -->
+
+    <!-- fotterpart -->
+    <div id="d1">
+    
+    </div>
+    <div id="d2">
+    
+        <div class="d3">
+            <div class="d4">
+                <h5>ONN BIKES</h5>
+                <span><a href="#"> About Us </a> </span><br>
+                <span><a href="#"> Blog </a> </span><br>
+                <span><a href="#"> Careers</a> </span><br>
+                <span><a href="#">FAQs</a> </span><br>
+                <span><a href="#"> Fleet and Pricing</a> </span><br>
+                <span><a href="#"> Offers</a> </span><br>
+    
+    
+            </div>
+            <div class="d4">
+                <h5>WE'RE AT</h5>
+                <span><a href="#">Bengaluru</a> </span><br>
+                <span><a href="#">Hyderabad</a></span><br>
+                <span><a href="#">Jaipur</a></span><br>
+                <span><a href="#">Mysuru</a> </span><br>
+                <span><a href="#">Udaipur</a> </span><br>
+            </div>
+            <div class="d4" id="subscribe">
+                <h5>POLICIES</h5>
+                <span><a href="#">Terms of use</a> </span><br>
+                <span><a href="#">Privacy Policy</a> </span><br>
+                <span><a href="#">Pricing Policy</a> </span><br>
+                <span><a href="#">Insurance Policy</a> </span><br>
+    
+            </div>
+            <div class="d4">
+                <p class="footer-para">ONN BIKES IS HERE TO REDEFINE THE WAY YOU TRAVEL!
+                    RENT A BIKE ON AN HOURLY, DAILY, WEEKLY OR EVEN MONTHLY BASIS.
+                    WE ALSO HAVE LONG TERM LEASING SOLUTIONS FOR BUSINESSES WHO ARE INTO LAST MILE DELIVERY THROUGH TWO
+                    WHEELERS.</p>
+                <div style="margin-left: 20px;">
+                    <a href="https://www.facebook.com/onnbikes" target="_blank"><i  class="fab fa-facebook fab-9px"></i></a>
+    
+                    <a href="https://twitter.com/OnnBikes" target="_blank"><i class="fab fa-twitter-square"></i></a>
+    
+                    <a href="https://www.instagram.com/onnbikes/" target="_blank"><i class="fab fa-instagram"></i></a>
+    
+                    <a href="https://in.linkedin.com/company/onnbikes" target="_blank"><i class="fab fa-linkedin"></i></a>
+    
+    
+                </div>
+    
+            </div>
+    
+    
+    
+            <div>
+            </div>
+        </div>
+        <hr style="width: 92.5%; border: 0.5px solid white;">
+    
+        <div id="last-part">
+            <h5>Looking for Two Wheelers on Rent?</h5>
+            <p style="font-size: 12px; margin-top: -12px;text-align: left;">ONN Bikes is the most affordable bike rental company in India.
+                We specialize in motorcycle rental, from short-term motorbike rental to long-term hiring or leasing,
+                from bike tours to bike maintenance and service – we have it all. We have bike rentals in Bangalore,
+                Hyderabad, Udaipur, Mysuru and now in Jaipur. We have a wide range of geared, non-geared two wheelers
+                and scooters for rent. We have become one of India’s leading bike rentals because we simplified the
+                process and made it affordable. Have a look at our Offers and Deals section specially tailored for your
+                needs.
+                You can now rent two wheelers in Bangalore, Mysore, Hyderabad, Udaipur and Jaipur in just three easy
+                steps either through our website or by downloading our Bike Rental App which is available on both
+                Android and iOS. With our highly efficient booking system, you can now sit back and relax while we do
+                all your work. Install our Android or iOS Bike Rental App to Hire a Bike in Hyderabad in Seconds. We
+                understand your biking needs and always place it at the top of our priorities. Bike rentals in India
+                couldn’t get any easier!</p>
+    
+            <h5 style="margin-top: 8px;">Looking for Affordable Bike Renting?</h5>
+            <p style="font-size: 12px; margin-top: -12px;text-align: left;">We believe that each one of us is unique. Being unique means
+                we all have different likes and needs. So, we went out of our way to get something for everyone. All you
+                have to do is make up your mind and pick one! It doesn’t matter if you’re a college student, a working
+                professional or a bike enthusiast who just wants to ride around the city for the weekend, pick something
+                that suits your lifestyle and Wallet as well.</p>
+    
+            <h5 style="margin-top: 8px;">Introducing Monthly Bike Renting Subscription</h5>
+            <p style="font-size: 12px; margin-top: -12px;text-align: left;">Renting a bike everyday might seem like a task for many. So,
+                we introduced a monthly subscription package which allows you to be flexible and rent a bike for a month
+                or maybe more. You can rent a two wheeler online on monthly, quarterly, half yearly or yearly basis.
+                From an hour to a year, motorbike rental was never so flexible.</p>
+    
+            <p style="margin-top: 8px; font-size: small; text-align: left;">OUR FLEET IN VARIOUS CITIES</p>
+            <p style="font-size: 12px; margin-top: 2px; text-align: left;">Scooters on rent - Honda Activa, Honda Dio <br>
+                Cruise Bikes on rent - Bajaj Avenger 220 Cruise, Royal Enfield Classic 350, Royal Enfield Thunderbird
+                350 <br>
+                Commuter Bikes on rent - Bajaj Pulsar 150, Yamaha FZ, Bajaj Pulsar 180, Bajaj Avenger 220 Street <br>
+                Sports Bikes on rent - KTM Duke 250, Honda CBR 150, Bajaj Dominar 400 ABS <br>
+                Adventure Bikes on rent - Royal Enfield Himalayan <br>
+                Utility Bikes on rent - Honda Livo, Bajaj CT 100, Hero HF Deluxe, Bajaj Pulsar 135</p>
+    
+            <p style="margin-top: 8px; font-size: small; text-align: left;">MONTHLY SUBSCRIPTION</p>
+            <p style="font-size: 12px; margin-top: 2px; text-align: left;">Renting a bike every day might seem like a task for many. So,
+                we introduced a monthly subscription package which allows you to be flexible and rent a bike for a month
+                or maybe more. You can rent a two-wheeler online on a monthly, quarterly, half-yearly or yearly basis.
+                From an hour to a year, motorbike rental was never so flexible.</p>
+    
+            <p style="margin-top: 8px; font-size: small;  text-align: left;">ONN BIKES B2B</p>
+            <p style="font-size: 12px; margin-top: 2px;  text-align: left;">Are you looking to partner with us? Look no further. We cater
+                to all companies which rely on last mile delivery in various cities across India. Our low maintenance
+                two-wheelers come as great assistance to logistics, food delivery and bike taxi companies in Karnataka,
+                Telangana, Rajasthan and Delhi NCR region.</p>
+    
+        </div>
+        <hr style="width: 92%; border: 0.5px solid white; margin-bottom: 20px;">
+    
+        <p style="text-align: center; padding: 0 0 5px 0; font-size: small;">&copy;2021 MOTOCRUIZER TECHNOLOGIES INDIA
+            PVT.LTD. ALL RIGHTS RESERVED</p>
+    
+    
+    </div>
+
+    <% function faqKiyaJaye(){%>
+        <!-- window.location.href="FAQ.html" -->
+        <%- include('Faq.ejs')%>
+    
+    <%}%>
+
+  </body>
+  <script src="js/home.js"></script>
+  <script src="js/login.js"></script>
+  <!-- <script src="contact.js"></script> -->
+  
+  <!-- <script src="js/users/login.js"></script> -->
+</html>

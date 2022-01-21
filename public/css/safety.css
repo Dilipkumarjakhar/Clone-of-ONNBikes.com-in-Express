@@ -1,0 +1,477 @@
+* {
+    width: 100%;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    overflow: auto;
+
+  }
+
+
+  #container {
+    width: 100%;
+    height: 450px;
+    height: auto;
+    position: relative;
+
+    background-image:url(../../safety-images/banner.jpg);
+background-size: cover;
+  
+  }
+
+
+
+  #image {
+    /* border: 1px solid black; */
+    height: 550px;
+    overflow: hidden;
+  }
+  #image img {
+    width: 100%;
+    height: 100%;
+    /* transition-duration: 1s; */
+  }
+
+  #fw13Nav.active{
+    /* top: 50%; */
+    /* color: white; */
+  color: black;
+  background-color: white;
+            visibility: visible;
+            opacity: 1;
+            transition: 0.5s;
+  }
+
+  #fw13Nav {
+    /* border: 1px solid red; */
+    height: 78px;
+    width: 100%;
+    position: absolute;
+    position: fixed;
+    margin-top: -560px;
+    transition: 0.5s;
+color: white;
+    /* align-content: center; */
+  }
+
+  .nav {
+    /* border: 1px solid red; */
+    display: flex;
+    /* width: auto; */
+    justify-content: center;
+    height: auto;
+    position: fixed;
+    margin-top: 15px;
+    align-items: center;
+    /* color: white; */
+
+    /* margin-left: -1%; */
+  }
+
+  .nav-child {
+    /* border: 1px solid black; */
+    width: auto;
+    margin-left: 100px;
+    height: auto;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .nav-child:hover {
+    color: orange;
+    cursor: pointer;
+  }
+  #logoONN {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+  }
+  #logo {
+    margin-left: 40px;
+  }
+  #faq {
+    margin-left: 40px;
+  }
+  
+  #why {
+    margin-left: -10px;
+  }
+  #why a,#safety a{
+    color: #fff;
+    text-decoration: none;
+  }
+  #why {
+    margin-left: -10px;
+  }
+  #safety {
+    margin-left: 100px;
+  }
+  .newDiv {
+    /* border: 2px solid purple; */
+    height: 500px;
+  }
+  #banner {
+    /* border: 3px solid black; */
+    width: auto;
+    height: auto;
+    position: absolute;
+    margin-top: -25%;
+    /* margin-left: 10%; */
+    right: 20%;
+    /* margin: auto; */
+color: white;
+  }
+  #banner h1{
+    text-align: center; 
+     font-size:34px;
+
+     font-family: Verdana;
+
+  }
+  #banner p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 5px;
+  }
+
+
+  
+  #hola{
+    background-image: url(./safety-images/bodybackground.png);
+    
+color: rgb(115,115,115);
+overflow: hidden;
+  }
+
+.advantage{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 100px;
+    /* display: inline-block; */
+    /* align-self: center; */
+}
+.advantage h3{
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 25px;
+    line-height: 26px;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.red-notice{
+    background-color: rgb(200,9,16);
+    width: 100px;
+height: 2px;
+margin: auto;
+}
+.advantage p{
+    margin-top: 30px;
+    /* border: 1px soild red; */
+    text-align: center;
+overflow: hidden;
+font-size: 17px;
+font-weight: 400;
+line-height: 22px;
+gap: 8px;
+
+}
+.ensuring{
+    width: 100%;
+  margin-top: 150px;
+
+}
+#h2-ensuring{
+    text-align: center;
+}
+#daily-temp{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+margin-top: 30px;
+    align-items: center;
+    text-align: center;
+
+}
+#daily-temp img{
+    /* border: 2px solid red; */
+    width: 20%;
+    height: 80%;
+    margin-left: 20%;
+    /* height: inherit; */
+    /* margin-right: 15%; */
+
+}
+#daily-temp div h3{
+    text-align: center;
+    text-align: start;
+    color: black;
+}
+#daily-temp div p{
+    text-align: center;
+    margin-top: 30px;
+    gap: 8px;
+    text-align: start;
+    word-spacing: 3px;
+
+}
+#text-daily1{
+    /* border: 1px solid blue; */
+    width: auto;
+  
+    margin-left: 15%;
+}
+#mask{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+margin-top: 30px;
+    align-items: center;
+    text-align: center;
+}
+#mask img{
+    /* border: 2px solid red; */
+    width: 20%;
+    height: 80%;
+margin-left: 20%;
+}
+#mask div h3{
+    color: black;
+    text-align: center;
+    text-align: start;
+}
+
+#mask div p{
+    text-align: center;
+    margin-top: 30px;
+    gap: 8px;
+    text-align: start;
+    word-spacing: 3px;
+
+}
+#text-daily2{
+    /* border: 1px solid blue; */
+    width: auto;
+  
+    margin-left: 13%;
+}
+#sanitized{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+margin-top: 30px;
+    align-items: center;
+    text-align: center;
+}
+#sanitized img{
+    /* border: 2px solid red; */
+    width: 20%;
+    height: 80%;
+margin-left: 20%;
+}
+#sanitized div h3{
+    color: black;
+    text-align: center;
+    text-align: start;
+}
+#sanitized div p{
+    text-align: center;
+    margin-top: 30px;
+    gap: 8px;
+    text-align: start;
+    word-spacing: 3px;
+
+}
+#text-daily3{
+    /* border: 1px solid blue; */
+    width: auto;
+  
+    margin-left: 15%;
+}
+#aarogya{
+  display: flex;
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+margin-top: 30px;
+  align-items: center;
+  text-align: center;
+}
+#aarogya img{
+  /* border: 2px solid red; */
+  width: 20%;
+  height: 80%;
+margin-left: 20%;
+}
+#aarogya div h3{
+  color: black;
+  text-align: center;
+  text-align: start;
+}
+#aarogya div p{
+  text-align: center;
+  margin-top: 30px;
+  gap: 8px;
+  word-spacing: 3px;
+  text-align: start;
+}
+#text-daily4{
+  /* border: 1px solid blue; */
+  width: auto;
+
+  margin-left: 13%;
+}
+#on-ground{
+  width: 100%;
+  margin-top: 80px;
+  /* border: 1px solid red; */
+}
+.steps{
+  /* border: 1px solid red; */
+margin-top: 5px;
+  text-align: center;
+}
+
+#The3box{
+  margin-top: 40px;
+  /* border: 1px solid red; */
+  display: flex;
+justify-content: center;
+
+}
+.fourBox{
+  /* border: 1px solid black; */
+  margin-left: 25px;
+  width: 280px;
+  height: 300px;
+overflow: hidden;
+text-align: center;
+color: rgb(115,115,115);
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.Thepng{
+  /* border: 1px solid red; */
+ width: 70px;
+ height: 20%;
+ /* margin: 0; */
+}
+.fourBox h5{
+  /* border: 1px solid blue; */
+  word-spacing: 3px;
+margin-top: 15px;
+  
+}
+
+.fourBox p{
+  /* border: 1px solid red; */
+  line-height: 25px;
+  word-spacing: 2px;
+  margin-top: 15px;
+}
+#benefit{
+  width: 100%;
+  /* border: 1px solid red; */
+  margin-top: 80px;
+}
+#benefit1{
+  /* border: 1px solid black; */
+display: flex;
+justify-content: center;
+}
+#benefit2{
+  /* border: 1px solid black; */
+ display: flex;
+ justify-content: center;
+}
+.Bikes{
+  /* border: 3px solid blue; */
+  /* border: 1px solid red; */
+  margin-left: 30px;
+  width: 230px;
+  height: 450px;
+overflow: hidden;
+text-align: center;
+color: rgb(115,115,115);
+}
+.Bikes h3{
+  word-spacing: 3px;
+  margin-top: 15px;
+}
+.Bikes p{
+  line-height: 35px;
+  word-spacing: 2px;
+  margin-top: 15px;
+/* height: 400px; */
+}
+.Thepng1{
+  width: 50px;
+  height: 15%;
+}
+
+/* footer css */
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#d2 {
+  /* height: 400px; */
+  background-color: #474747;
+  color: white;
+}
+
+
+.d3 {
+  /* border: 1px solid black; */
+  /* height: 250px; */
+  display: grid;
+  grid-template-columns: 18% 18% 18% 40%;
+  gap: 2%;
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+  /* padding-top: 10px;
+  padding-bottom: 30px; */
+}
+
+.d4 {
+  /* display: inline-block;
+  width: 20%; */
+
+  margin: 0 20px;
+  /* height: 250px; */
+  vertical-align: text-top;
+  line-height: 28px;
+  letter-spacing: normal;
+overflow: hidden;
+}
+
+.d4>h5 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-para {
+  font-size: 12px;
+  margin-top: 22px;
+}
+
+
+.d4>span>a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.d4>span>a:hover {
+  color: orangered;
+}
+.fab{
+  color: white;
+  font-size: 25px;
+  border-radius: 50%;
+  width: 30px;
+}

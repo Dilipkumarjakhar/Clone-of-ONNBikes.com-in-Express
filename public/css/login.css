@@ -1,0 +1,368 @@
+#main420{
+            
+            
+   display: grid;
+   grid-template-columns: 340px 440px;
+   width: 800px;
+   height: 450px;
+   /* margin:1px auto; */
+   grid-column-gap: 1px;
+   /* border: 1px solid #000; */
+   overflow: hidden;
+ }
+ .boxes{
+  
+  
+   margin-top: 2px;
+ 
+   height:450px;
+   overflow: hidden;
+   /* border: 1px solid #000; */
+}
+#left img{
+   width:100%;
+   height:100%;
+   background:#a0a1a3;
+}
+#right{
+ overflow: hidden;
+
+}
+#logsin{
+   overflow: hidden;
+   margin-left: 5px;
+   margin-top: 2px;
+   width: 98%;
+   height: 50px;
+   /* border: 1px solid #000; */
+  
+ }
+ #logsin li{
+
+ display: inline;
+ list-style: none;
+ margin-left: 10px;
+ margin-bottom: -100px;
+
+ padding-top:10px;
+
+ 
+}
+
+#logsin li a{
+ 
+   display: inline;
+
+   font-family: Arial, sans-serif;
+   margin-top:20px;
+   padding-top:20px;
+   text-decoration: none;
+   font-size:16px;
+   text-transform: uppercase;
+}
+/* li .line{
+ display:inline-block;
+   font-size:20px; 
+  border-radius: 5px;
+  } */
+#facgoogle{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  margin-top:10px;
+  grid-column-gap: 2px;
+  /* border: 1px solid #000; */
+  height: 70px;
+}
+.facgoog{
+  margin: auto 22px;
+  height: 40px;
+    width: 180px;
+    /* border: 1px solid #000; */
+    overflow: hidden;
+}
+#facebook{
+
+ 
+  background-color:#4865b4;
+}
+#google{
+  
+  background-color:#dd4b39;
+
+}
+#facebook,#google{
+  /* margin-left:50px ; */
+  width:70%;
+  height: 100%;
+  border: 1px solid #000;
+}
+#facebook li,#google li{
+  list-style: none;
+  margin-top: 5px; 
+  margin-left: 10px; 
+  letter-spacing: 1px;
+  
+  font-size:18px;
+  text-decoration: none;
+  
+}
+#facebook li a ,#google li a{
+  color:#fff;
+  text-decoration:none;
+} 
+#fc{
+  display: grid;
+  /* grid-template-columns:repeat(2,20%); */
+  grid-template-columns:50px 129px;
+  grid-column-gap:1px;
+  /* width:200px; */
+}
+#fc .f{
+  height: 40px;
+  width: 100%;
+  border: 1px solid rgb(72, 72, 148);
+}
+  #fcicon{
+
+      background-color: rgb(72, 72, 148);
+  }
+#go{
+      display: grid;
+  /* grid-template-columns:repeat(2,20%); */
+  grid-template-columns:50px 126px;
+  grid-column-gap:1px;
+  /* width:200px; */
+}
+#go .g{
+  height: 40px;
+  width: 100%;
+  border: 1px solid rgb(216, 38, 38);
+
+}
+#gicon{
+  background-color: rgb(216, 38, 38);
+}
+#fcicon i,#gicon i{
+  margin-top: 17%;
+  margin-left: 25%;
+  font-size:20px;
+  color: #fff;
+  /* border: 2px solid orangered; */
+  
+  
+}
+#inputs{
+  margin-top:2%;
+  margin-left:1%;
+  height: 200px;
+  width: 97%;
+  /* border: 1px solid #000; */
+  padding:5px 2px;
+  overflow: hidden;
+  
+}
+input{
+  margin-top: 10px;
+  /* border: none; */
+  height:40px;
+  width: 98%;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+}
+#input button{
+  margin-top: 7px;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 16px;
+  background-color:#2d3b55;
+  height:40px;
+  width: 97%;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+}
+#inputs button{
+  margin-top: 5px;
+  margin-left: 8px;
+  color: #fff;
+  font-size: 16px;
+  background-color:#2d3b55;
+  height:40px;
+  width: 97%;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+}
+#check{
+   margin-top: 10px;
+   margin-left: 1%;
+ height:40px;
+ width:99%;
+ /* border: 1px solid #000; */
+ overflow:hidden;
+ /* margin-left: -175px; */
+ /* justify-content: flex-start; */
+}
+#inp,#forget{
+  display: inline-block;
+  margin-top: 0px;
+  /* margin-left: -80px; */
+  width: 49%;
+  overflow:hidden;
+  height: 98%;
+  /* border: 1px solid #000; */
+  
+}
+#ch{
+  
+  display: inline-block;
+  width: 40px;
+  height: 100%;
+  /* border: 1px solid #000; */
+  justify-content: flex-start;
+}
+#ch input{
+   margin-top: 5px;
+   /* margin-left: 0px; */
+   width: 50px;
+   height: 60%;
+   /* border: 1px solid #000; */
+   justify-content: flex-start;
+}
+#Rem{
+   display: inline-block;
+   overflow:hidden;
+   width:70%;
+  height: 100%;
+  /* border: 1px solid black; */
+  
+  /* vertical-align: top; */
+  
+}
+#Rem p{
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 8px;
+  color:#877f92;
+  letter-spacing: 1.5px;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+#forget{
+  vertical-align: top;
+}
+#forget li{
+  list-style: none;
+  margin-top:3px;
+  text-align: end;
+
+ 
+}
+#forget li a{
+  
+  margin-right: 10px;
+  font-size: 21px;
+ text-decoration: none;
+ color:#97979a
+}
+#btn{
+margin: auto;
+margin-top:5px;
+width: 95%;
+height:10%;
+
+}
+#btn button{
+border: none;
+width: 100%;
+background-color:#2d3b55;
+height: 100%;
+font-size: 20px;
+color: #fff;
+
+}
+#text{
+overflow:hidden;
+margin-top: 2%;
+margin-left: 28%;
+width: 55%;
+height: 8%;
+/* border: 1px solid #000; */
+}
+#text li{
+display: inline;
+}
+#log{
+height:70px;
+width:50px;
+/* border: 1px solid #000; */
+}
+#input{
+display: none;
+
+}  
+#input input{
+margin-left:10px;
+margin-bottom: 10px;
+width: 200px;
+height:40px;
+display: inline-block;
+border-top:none;
+border-left: none;
+border-right: none;
+}
+
+#blur.active{
+ overflow:hidden;
+   /* filter: blur(20px); */
+    /* pointer-events: none; */
+   /* user-select: none;  */
+   background-color: #cecece;
+}
+
+#popup420{
+   position: fixed;
+   top: 20%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   width:800px;
+   height:450px;
+   border-radius:0px;
+   /* padding:10px; */
+   box-sizing: 0 5px 30px rgba(0,0,0,0.30);
+   background: #fff;
+   visibility: hidden;
+   opacity: 0;
+   transition: 0.5s;
+   overflow: hidden;
+   /* border: 1px solid #000; */
+}
+#popup420.active{
+   top:50%;
+    visibility: visible;
+   opacity: 1;
+   transition: 0.3s;
+}
+#ls{
+ margin-top:10px;
+ margin-left:10px;
+ height:30px;
+ width:180px;
+ /* border:1px solid #111; */
+}
+#TheCross{
+  overflow: hidden;
+  margin-top:-5px;
+  margin-left:101%;
+  position:relative;
+  height: 30px;
+  width: 5%;
+}
+#TheCross i{
+
+  position:fixed;
+  height: 30px;
+  width: 8%;
+  /* border:1px solid #000; */
+
+}
