@@ -1,0 +1,360 @@
+*
+{
+    margin: 0%;
+    font-family:  Montserrat,sans-serif;
+    box-sizing: border-box;
+}
+
+
+#containerKrish {
+    width: 100%;
+  overflow: hidden;
+  margin-top: 5px;
+  }
+
+
+
+ 
+
+  #fw13Nav {
+  
+    height: 78px;
+    width: 100%;
+    position: fixed;
+    transition: 0.5s;
+    color:#1d2d51;
+    margin-top: 10px;
+  }
+
+  .nav {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    height: auto;
+   
+    align-items: center;
+
+  }
+
+  .nav-child {
+    width: auto;
+    margin-left: 100px;
+    height: auto;
+    font-weight: 600;
+    font-size: 18px;
+    
+  }
+  .nav-child:hover {
+    color: orange;
+    cursor: pointer;
+  }
+  #logoONN {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  #logo {
+    margin-left: 40px;
+    border-radius: 8px;
+    
+  }
+  #faq {
+    margin-left: 40px;
+  }
+  #why {
+    margin-left: -10px;
+  }
+  #safety {
+    margin-left: 100px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+#container
+{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    
+    display: flex;
+    column-gap: 1%;
+}
+#left-child
+{
+    width: 67%;
+    
+    
+}
+#right-child
+{
+    width: 32%;
+    
+    
+    
+}
+#left-child>div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#left-child>h4
+{
+    font-size: 14px;
+    font-weight: 400;
+    color: #1e2d51;
+
+
+}
+#left-child>h3
+{
+    font-size: 25px;
+    font-weight: 500!important;
+    color: #1e2d51;
+    margin-bottom: 10px;
+
+}
+
+#left-child>h5
+{
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.788);
+    margin-bottom: 4px;
+
+}
+#left-child>p
+{
+    font-size: 13px;
+    text-decoration: underline;
+    color: #337ab7;
+    margin-bottom: 60px;
+}
+#left-child>div>p
+{
+    font-size: 13px;
+    color: #333333;
+    text-transform: capitalize;
+
+}
+#left-child>div>h5
+{
+    color: #a2a2a2;
+    font-weight: 500;
+    font-size: 14px;
+}
+#left-child>h6
+{
+    font-size: 12px;
+    color: #333333;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+#datediv
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40%;
+    margin-bottom: 20px;
+}
+#datediv>div
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+#datediv>div>p
+{
+    font-size: 10px;
+    color: #1d2d51;
+    font-weight: 400;
+}
+#datediv>div>h3
+{
+    font-size: 22px;
+    font-weight: 550;
+    color: #1e2d51;
+}
+#refundablediv
+{
+    width: 97%;
+    margin: auto;
+    border: 2px solid rgb(206, 205, 205);
+    border-left: 9px solid #1e2d51;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 5px;
+
+    
+    
+}
+#refundablediv
+{
+    font-size: 11px;
+    color: #1d2d51;
+}
+#refundable
+{
+    font-size: 14px;
+    line-height: 16px;
+}
+#refundablemoney
+{
+    font-size: 16px;
+    font-weight: 550;
+}
+#pricing
+{
+    width: 97%;
+    border: 2px solid  rgb(206, 205, 205);
+    margin: auto;
+    padding: 2%;
+    font-size: 13px;
+    color: #1e2d51;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+
+
+}
+
+#pricetop
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#promocode
+{
+    margin-left: 10%;
+    width: 60%;
+    padding: 2% 15%;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+#promocodesubmit
+{
+    border-radius: 20px;
+    border: none;
+    height: 35px;
+    width: 35px;
+    background-color: #1d2d51;
+    color: aliceblue;
+}
+#insure
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 4px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#insuresubmit
+{
+    width: 35px;
+    height: 35px;
+    color: aliceblue;
+    
+    border-radius: 35px;
+    border: none;
+    
+}
+.active
+{
+    color: aliceblue;
+    background-color: rgba(255, 148, 8, 0.959);
+}
+#insuremoney
+{
+    margin-left: 20%;
+}
+#total
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #1d2d51;
+    margin-top: 12px;
+    margin-bottom: 22px;
+}
+#pricebottom
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#pricebottom>div
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+#pricebottom>div>button
+{
+    border-radius: 15px;
+    border: none;
+    color: honeydew;
+
+}
+#excludes
+{
+    background-color: rgba(255, 38, 0, 0.7);
+}
+#includes
+{
+    background-color: rgba(11, 165, 11, 0.7);
+}
+#terms
+{
+    width: 97%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 17px;
+    padding: 5% 3%;
+    text-decoration: underline;
+    font-size: 18px;
+    color: rgb(40, 40, 211);
+}
+#terms>input
+{
+    height: 20px;
+    width: 20px;
+}
+#payment
+{
+    width: 97%;
+    margin: auto;
+}
+.buttondisable
+{
+    width: 100%;
+    background-color: #1e2d51;
+    border: none;
+    padding: 3% 30%;
+    font-size: 20px;
+    color: aliceblue;
+    opacity: 0.3;
+    transition: 0.7s;
+}
+.activebutton
+{
+    opacity: 1;
+}

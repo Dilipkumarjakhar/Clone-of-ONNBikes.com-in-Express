@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bikedisplay.css">
+    
+</head>
+<body>
+
+   <div id="main">
+    <div id="containerKrish">
+        <!-- <div id="image"></div> -->
+        
+        <div id="fw13Nav" class="navbar">
+          <div  class="nav">
+            <div class="nav-child" id="why">HOME</div>
+            <div class="nav-child" id="fleet">RENT-TO-OWN</div>
+            <div class="nav-child" id="safety">FAQ</div>
+            <div class="nav-child" id="logo">
+              <img
+                id="logoONN"
+                src="https://www.onnbikes.com/img/ONN-logo-unit-without-shadow.png"
+                alt=""
+              />
+            </div>
+            <div class="nav-child" id="faq">OFFERS</div>
+            <div class="nav-child" id="welcome">BLOG</div>
+            <div class="nav-child" id="number">+919876543210</div>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id="bikeheading">
+        <img src="https://www.onnbikes.com/img/Save-More-book-monthly.svg" alt="">
+        <p>Save More, <u>Book Monthly</u></p>
+    </div>
+    <div id="bikecontainer">
+        <div id="filterdiv">
+
+            <div id="filtertop">
+                <p>FILTER</p>
+                <!-- <a onclick="removecheck()" href="/" class="disabled">Clear All</a> -->
+                <p id="clearcheck" onclick="removecheck()"><u>Clear All</u></p>
+            </div>
+            
+
+            <h3>MANUFACTURER</h3>
+            <div class="filterscroll">
+                <input type="checkbox" value="Honda" class="brand">Honda<br>
+                <input type="checkbox" value="Bajaj" class="brand">Bajaj<br>
+                <input type="checkbox" value="Yamaha" class="brand">Yamaha<br>
+                <input type="checkbox" value="Royal Enfield" class="brand">Royal Enfield<br>
+                <input type="checkbox" value="Ktm" class="brand">KTM<br>
+            </div>
+
+            <h3>MODEL</h3>
+                <div class="filterscroll">
+                    <input type="checkbox">Activa<br>
+                    <input type="checkbox">Avenger 220 Street<br>
+                    <input type="checkbox">Avenger 220 Cruise<br>
+                    <input type="checkbox">Dio<br>
+                    <input type="checkbox">CT100<br>
+                    <input type="checkbox">Pulsar<br>
+                    <input type="checkbox">Livo<br>
+                    <input type="checkbox">Hornet<br>
+                    <input type="checkbox">Duke 250<br>
+                    <input type="checkbox">FZ<br>
+                </div>
+            <h3>VEHICLE TYPE</h3>
+            <div class="filterscroll">
+                <input type="checkbox" value="scooty" class="vehicletype" >Scooter</input><br>
+                <input type="checkbox" value="bike" class="vehicletype">Bike</input><br>
+            </div>
+        </div>
+        <div id="bikediv">
+
+
+        </div>
+    </div>
+
+    <div id="popup">
+        <div class="close-btn">&times;</div>
+        <div id="popup-top">Select Pickup Location</div>
+        <div id="popup-add">
+            <div onclick="gotodetails()">
+                <h4>Kormangla</h4> 
+                <p>Station Timing : 9:00AM - 10:00AM</p>
+                <p>Opp Big Bazar, Next to Raja</p>
+                <div class="popup-submit">5+Available</div>
+            </div>
+            <div onclick="gotodetails()">
+             <h4>Electronic City</h4> 
+             <p>Station Timing : 7:00AM - 8:00PM</p>
+             <p>Next to Paradise Biryani</p>
+             <div class="popup-submit">5+Available</div>
+            </div>
+            <div onclick="gotodetails()">
+             <h4>HSR 7th sector</h4> 
+             <p>Station Timing : 7:00AM - 8:00PM</p>
+             <p>Next to Donne Biryani Mane</p>
+             <div class="popup-submit">5 Available</div>
+            </div>
+            <div onclick="gotodetails()">
+             <h4>Kundalhalli</h4> 
+             <p>Station Timing : 7:00AM - 8:00PM</p>
+             <p>Kundalhalli, Gate Signal</p>
+             <div class="popup-submit">3 Available</div>
+            </div>
+           
+    </div>
+ 
+    </div>
+   </div>
+
+    <div id="onload"><img src="https://img.icons8.com/material-sharp/2x/dots-loading--v6.gif" alt=""></div>
+</body>
+</html>
+
+<script src="js/bikedisplay.js">
+
+</script>

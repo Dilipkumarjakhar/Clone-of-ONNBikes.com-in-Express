@@ -1,0 +1,343 @@
+
+        *{
+            font-family:  Montserrat,sans-serif;
+            margin:0px;
+            
+            
+        }
+
+        
+  #containerKrish {
+    width: 100%;
+  overflow: hidden;
+  margin-top: 5px;
+  }
+
+
+
+ 
+
+  #fw13Nav {
+  
+    height: 78px;
+    width: 100%;
+    position: fixed;
+    transition: 0.5s;
+    color:#1d2d51;
+    margin-top: 10px;
+  }
+
+  .nav {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    height: auto;
+   
+    align-items: center;
+
+  }
+
+  .nav-child {
+    width: auto;
+    margin-left: 100px;
+    height: auto;
+    font-weight: 600;
+    font-size: 18px;
+    
+  }
+  .nav-child:hover {
+    color: orange;
+    cursor: pointer;
+  }
+  #logoONN {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  #logo {
+    margin-left: 40px;
+    border-radius: 8px;
+    
+  }
+  #faq {
+    margin-left: 40px;
+  }
+  #why {
+    margin-left: -10px;
+  }
+  #safety {
+    margin-left: 100px;
+  }
+  
+
+      
+
+        
+      
+        
+        #bikecontainer
+        {
+            display: flex;
+            column-gap: 1%;
+
+        }
+
+        #filterdiv
+        {
+            width: 15%;
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+            height: 305px;
+            
+
+        }
+        #bikediv
+        {
+            width: 84%;
+            height: 500px;
+            
+            overflow: scroll;
+        }
+        .filterscroll
+        {
+            margin-left: 10%;
+            height: 80px;
+            width: 190px;
+            overflow: scroll;
+            font-size: 14px;
+            color: rgb(66, 60, 60);
+        }
+        .filterscroll::-webkit-scrollbar {
+            width: 5px;
+            
+       }
+        .filterscroll::-webkit-scrollbar-thumb {
+            background-color: darkgrey;
+            outline: 1px solid slategrey;
+       }
+
+       #filterdiv>h3
+       {
+            margin: 0%;
+            font-size: 14px;
+            margin-left: 5px;
+            font-weight: 550;
+            color: rgb(44, 41, 41);
+       }
+       #filtertop
+       {
+           display: flex;
+           font-size: 13px;
+           width: 94%;
+           margin-left: 5px;
+           margin-bottom: 8px;
+           justify-content: space-between;
+       }
+       #filtertop>#clearcheck
+       {
+           color: rgb(35, 35, 117);
+           cursor: pointer;
+       }
+
+       #bikediv
+       {
+           display: flex;
+           column-gap: 3%;
+           row-gap: 30px;
+           
+           flex-wrap: wrap;
+           padding: 20px 5px;
+           
+       }
+       #bikediv>div
+       {
+           width: 22%; 
+           box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+       }
+
+       #bikediv>div:hover
+       {
+           border: 1px solid rgb(219, 213, 213);
+           box-sizing: border-box;
+       }
+       #bikediv>div>div
+       {
+           display: flex;
+           column-gap: 10%;
+           margin-left: 5px;
+       }
+       #bikediv>div>h5
+       {
+           margin: 0%;
+           font-size: 12px;
+           color: #1f2c4d;
+           font-weight: 550;
+           line-height: 28px;
+           margin-top: 5px;
+           margin-left: 7px;
+           margin-bottom: 5px;
+       }
+       #bikediv>div>p
+       {
+        font-size: 13px;
+        color: #a2a2a2;
+        margin-top: 0px;
+        margin-left: 7px;
+        margin-bottom: 7px;
+       }
+       #bikediv>div>div>h3
+       {
+           margin-left: 25px;
+           font-size: 21px;
+            color: #3c3d40;
+            border-bottom: 2px solid #d4d4d4;
+            height: 47px;
+             width: 88px;
+            margin-left: 17px;
+             line-height: 46px;
+             padding-left: 15px;
+             font-weight: 500;
+       }
+       #bikediv>div>div>button
+       {
+           padding: 0px;
+           height: 50px;
+           width: 40%;
+           margin-top: 20px;
+           padding: 1px 6px;
+           background-color: #1e2d51;
+           border: 0;
+           text-align: center;
+          color: #fff;
+          font-weight: 400;
+          cursor: pointer;
+       }
+       #bikeheading
+       {
+           display: flex;
+           margin: auto;
+           width: 300px;
+           column-gap: 7px;
+           font-size: 15px;
+           color: #1e2d51;
+           font-weight: 550;
+           margin-top: 150px;
+       }
+      a.disabled
+      {
+           pointer-events: none;
+           cursor: pointer;
+      }
+
+
+
+      #popup
+        {
+            position: absolute;
+            width: 65%;
+            top: -150%;
+            left: 50%;
+            transform: translate(-50%,-50%)scale(1.25);
+            background-color: #fff;
+            opacity: 0;
+            border-radius: 10px ;
+            transition: 0.75s;
+            border: 0.5px solid gray;
+        }
+        #popup.active
+        {
+            top: 40%;
+            transform: translate(-50%,-50%)scale(1);
+            opacity: 2;
+        }
+
+       
+        #popup .close-btn
+        {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            cursor: pointer;
+            width: 25px;
+            padding: 12.5px;
+            
+            
+            background:  #f5f5f5;
+            color: #555;
+            text-align: center;
+            line-height: 15px;
+            border-radius: 25px;
+
+        }
+        #popup >#popup-top
+        {
+            width: 250px;
+            margin: auto;
+            margin-top: 16px;
+            color: #333;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 28px;
+        }
+
+        #popup >#popup-add
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 20px 50px ;
+            
+            grid-gap: 30px;
+            margin-top: 50px;
+           
+        }
+        #popup >#popup-add>div
+        {
+            
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            background-color: #F7F7F7;
+            transition: 0.25s;
+            cursor: pointer;
+            
+
+        }
+
+        #popup >#popup-add>div:hover
+        {
+            transform: scale(1.10);
+        }
+
+        .popup-submit
+        {
+            width: 93.5%;
+            padding: 20px 10px;
+            margin-top: 15px;
+            border-radius: 6px;
+            background-color:#00B468;
+            color: cornsilk;
+        }
+        #popup >#popup-add>div>h4
+        {
+            font-size: 16px;
+            font-weight: 401;
+            margin: 7px 0 0 7px;
+            text-transform: capitalize;
+            color: #525758;
+        }
+        #popup >#popup-add>div>p
+        {
+            font-size: 14px;
+            font-weight: 401;
+            margin: 7px 0 0 7px;
+            text-transform: capitalize;
+            color: #525758;
+        }
+
+        #onload
+        {
+            display: none;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            top: 50%;
+            left: 50%;
+        }
+        
