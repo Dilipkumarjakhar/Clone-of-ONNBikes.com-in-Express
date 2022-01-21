@@ -208,13 +208,7 @@ let vehicletypedata=[];
 let closebtn=document.querySelector(".close-btn")
 let popup=document.querySelector("#popup")
 
-let date=2
-
-
-
-	
-
-;
+let date=2;
 
 function displaydata(data)
 {
@@ -338,11 +332,12 @@ function removecheck()
 	
 }
 
-
+let itemid;
 function getpopup(item)
-{
+{ 
 	localStorage.setItem("bikedata",JSON.stringify(item));
-	console.log("hello")
+	itemid=item._id;
+	localStorage.setItem("bikeid",itemid)
 	popup.classList.add('active');
 }
 
@@ -353,14 +348,10 @@ closebtn.addEventListener("click",()=>
 
 function gotodetails()
 {
-	document.querySelector("#main").innerHTML=null
+	
+	window.location.href="/bikedetails"
 
-	document.getElementById("onload").style.display="block"
 
-	setTimeout(()=>
-	{
-		window.location.href="bikedetails.html"
-	},2000)
 	
 }
 

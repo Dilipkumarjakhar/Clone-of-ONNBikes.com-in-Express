@@ -14,11 +14,16 @@ app.set("view engine","ejs")
 app.use(express.urlencoded({extended:false}))
 
 app.use('/bike',bikecontroller)
-app.get("/home",async(req,res)=>{
+app.get("/bikedisplay",async(req,res)=>{
 
  
     return res.render("bikedisplay")
 
+})
+
+app.get("/bikedetails",async(req,res)=>
+{
+    return res.render("bikedetails")
 })
 
 

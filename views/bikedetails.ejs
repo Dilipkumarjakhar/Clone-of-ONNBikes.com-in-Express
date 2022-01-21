@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/css/bikedetails.css">
+
+    
+</head>
+<body>
+    
+    <div id="containerKrish">
+        <!-- <div id="image"></div> -->
+        
+        <div id="fw13Nav" class="navbar">
+          <div  class="nav">
+            <div class="nav-child" id="why">HOME</div>
+            <div class="nav-child" id="fleet">RENT-TO-OWN</div>
+            <div class="nav-child" id="safety">FAQ</div>
+            <div class="nav-child" id="logo">
+              <img
+                id="logoONN"
+                src="https://www.onnbikes.com/img/ONN-logo-unit-without-shadow.png"
+                alt=""
+              />
+            </div>
+            <div class="nav-child" id="faq">OFFERS</div>
+            <div class="nav-child" id="welcome">BLOG</div>
+            <div class="nav-child" id="number">+919876543210</div>
+          </div>
+        </div>
+      </div>
+
+
+    <div id="container">
+        <div id="left-child"></div>
+        <div id="right-child">
+            <div id="datediv">
+                <div id="startdatediv">
+                    <p>START TRIP</p>
+                    <h3 id="startdate">27-02-21</h3>
+                </div>
+                <div id="enddatediv">
+                    <p>END TRIP</p>
+                    <h3 id="enddate">28-02-21</h3>
+                </div>
+            </div>
+            <div id="refundablediv">
+                <div>
+                    <p id="refundable">Refundable Deposit</p>
+                    <p>This amount has to be paid at the time of vehicle delivery</p>
+                </div>
+                <div id="refundablemoney">₹0</div>
+               
+            </div>
+
+            <div id="pricing">
+                PRICING
+                <div id="pricetop">
+                    <p>Tarrif(Inclusive of all taxes)</p>
+                    <p id="price">₹545</p>
+                </div>
+
+                <input id="promocode" type="text" placeholder="PROMOCODE">
+                <button id="promocodesubmit">&#10003;</button>
+
+                <div id="insure"> 
+                    <button onclick="insure()" id="insuresubmit" >&#10003;</button>
+                    <div>
+                        Insure My Ride
+                        <p>Covers the rider, pillion and the vehicle</p>
+                    </div>
+                    <div id="insuremoney"></div>
+
+                </div>
+
+                <div id="total">
+                    <p>Total Amount</p>
+                    <p id="totalamount">₹545</p>
+                </div>
+
+                <div id="pricebottom">
+                    <div> 
+                        <button id="excludes">&#10005</button>
+                        <p>Excludes fuel</p>
+                    </div>
+                    <div>
+                        <button id="includes">&#10003;</button>
+                        <p>Includes of all Taxes</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div id="terms">
+                <input onclick="activatepayment()" type="checkbox" id="tcvalue">
+                <p>I agree to the terms of use</p>
+
+            </div>
+
+            <div id="payment">
+                <button id="buttonpayment" class="buttondisable">PAYMENT</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
+<script src="/js/bikedetails.js"></script>
