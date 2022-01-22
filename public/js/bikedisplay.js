@@ -208,7 +208,7 @@ let vehicletypedata=[];
 let closebtn=document.querySelector(".close-btn")
 let popup=document.querySelector("#popup")
 
-let date=2;
+let date=JSON.parse(localStorage.getItem("antim"));
 
 function displaydata(data)
 {
@@ -229,7 +229,7 @@ function displaydata(data)
         let innerdiv=document.createElement("div");
 
         let price=document.createElement("h3");
-        price.innerHTML=`₹${item.price*date}`
+        price.innerHTML=`₹${item.price*date[2]}`
 
         let button=document.createElement("button");
         button.innerText="BOOK NOW"
