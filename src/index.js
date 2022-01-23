@@ -55,7 +55,7 @@ app.post("/register",async(req,res)=>{
                   mobile:req.body.mobile
               })
      const register=await storuserdata.save();
-     res.sendStatus(201).render("/home");
+    //  res.sendStatus(201).render("/home");
         }catch(err){
     return res.status(500).send(err);
     
@@ -74,7 +74,7 @@ try{
     const ismatch=await bcrypt.compare(password,data_base_pass.password)
      console.log('ismatch:', ismatch)
      if(ismatch){
-        res.status(201).render("/home");
+        res.status(201).render("home");
         // res.send("login successful");
         // res.status(201).render("/");
     }
