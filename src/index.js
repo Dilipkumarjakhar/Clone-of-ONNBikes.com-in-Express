@@ -89,4 +89,20 @@ try{
 }
 })
 
+// payment
+
+
+app.use("/paymentpage",(req,res)=>{
+    res.render("paymentpage")
+})
+app.use("/paycc",(req,res)=>{
+    res.render("paycc")
+})
+app.use("/otp",(req,res)=>{
+    res.render("otp")
+})
+app.use("/thanks",(req,res)=>{
+    res.render("thanks")
+})
+
 module.exports=app;

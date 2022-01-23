@@ -1,0 +1,325 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+        #main{
+            display: grid;
+            grid-template-columns: repeat(2,50%);
+            width: 85%;
+            grid-column-gap: 10px;
+            /* border: 1px solid #000; */
+            margin:20px auto;
+        }
+        .box{
+            height: 650px;
+            /* border: 1px solid #000 */
+        }
+        #heading{
+            margin: auto;
+            margin-top:5px;
+            height:55px;
+            width:97%;
+            /* border: 1px solid #000 */
+        }
+        h1{
+            margin-top:0px;
+            /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+            font-family: 'Montserrat', sans-serif;
+        }
+        .pay{
+            margin-top:10px;
+            margin-left: 5px;
+            height: 70px;
+            width: 97%;
+            border: 1px solid rgb(206, 205, 205);
+            box-shadow: 0rem 0.3rem 0.7rem 0rem;
+        }
+        #box{
+            height:87%;
+            width:95%;
+            margin:10px auto;
+            border: 1px solid rgb(196, 192, 192);
+            box-shadow: 0rem 0.3rem 0.7rem 0rem;
+        }
+        #firstdiv{
+             height:60%;
+             width:95%;
+             margin:10px auto;
+             border: 1px solid rgb(112, 111, 111);
+        }
+        #secdiv{
+             height:35%;
+             width:95%;
+             margin: auto;
+             border: 1px solid rgb(156, 153, 153);
+        }
+        sub{
+            margin-left: -130px;
+            padding-top: 50px;
+            font-size:15px;
+        }
+        span{
+            display: inline-block;
+
+        }
+        .ptm,.PhonePe,.mob{
+            display: inline-block;
+            margin-left:20px;
+           margin-top: 23px;
+           font-size:21px;
+           vertical-align: top;
+           color: #6b3eb8;
+        }
+        img{
+            display: inline-block;
+            margin-left:10px;
+            height:70px;
+            width:70px;
+        }
+        input{
+            margin-top:10px;
+            border-top:none;
+            border-left:none;
+            border-right:none;
+            margin-left:30px;
+            
+            font-size:20px;
+            font-family: cursive;
+        }
+        button{
+            width: 70px;
+            margin-left:50px;
+            height: 40px;
+            border: none;
+            background-color: #1e2d51;
+            color: #fff;
+            border-radius:50px;
+        }
+        #baj{
+            margin-top: 10px;
+            margin-left:3%;
+            display:inline-block;
+            height:45px;
+            width:70px;
+            border: 1px solid rgb(255, 255, 255);
+        }
+        #baj #ct{
+            font-size: 20px;
+        }
+        #baj1{
+            font-size: 18px;
+            margin-top: 10px;
+            margin-left: 73%;
+            display: inline-block;
+            vertical-align: top;
+            height:30px;
+            width:50px;
+            border: 1px solid rgb(253, 253, 253);
+
+        }
+        #start{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 18px;
+            margin-top: 5px;
+            margin-left: 10%;
+            display: inline-block;
+            vertical-align: top;
+            height:80px;
+            width:150px;
+            border: 1px solid rgb(253, 253, 253);
+        }
+        #end{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+             font-size: 18px;
+            margin-top: 5px;
+            margin-left: 25%;
+            display: inline-block;
+            vertical-align: top;
+            height:80px;
+            width:150px;
+            border: 1px solid rgb(255, 255, 255);
+        }
+        #picked{
+            height:20px;
+            width:100%;
+            border: 1px solid rgb(252, 252, 252);
+        }
+        #picked p{
+            margin-top:0px;
+            margin-left:3%;
+            font-size:20px;
+        }
+        #py{
+            margin-top:-8px;
+            width:100%;
+            height:30px;
+            /* border: 1px solid #000; */
+            
+            background:#cecece;
+         
+        }
+        #py span{
+         
+            font-size:18px;
+            margin-top:3px;
+            margin-left:3%;
+        }
+        #tar{
+            margin-top: 1px;
+            font-size:16px;
+            margin-left:3%;
+            display:inline-block;
+            height:40px;
+            width:140px;
+            border: 1px solid rgb(250, 247, 247);
+        }
+        #tarp{
+            vertical-align:top;
+            margin-top: 1px;
+            margin-left:61%;
+            display:inline-block;
+            height:40px;
+            width:50px;
+            font-size: 18px;
+            border: 1px solid rgb(250, 250, 250);
+        }
+        #total{
+            margin-top: 1px;
+            height:35px;
+            width:100%;          
+            border: 1px solid rgb(153, 153, 153);
+            background-color: #cecece;
+        }
+        #payable{
+            font-size:18px;
+            display: inline-block;
+            height:30px;
+            width:30%;
+            border: 1px solid transparent;
+            /* border: 1px solid black; */
+            margin-left: 3%;
+        }
+        #rup{
+            vertical-align: top;
+            font-size:18px;
+            display: inline-block;
+            height:30px;
+            width:12%;
+            border: 1px solid transparent;
+            /* border: 1px solid black; */
+            
+            margin-left:50%;
+        }
+        .secmain{
+            width:100%;
+            height:40px;
+            border: 1px solid rgb(250, 250, 250);
+        }
+        .sectext{
+            margin-left:3%;
+            display:inline-block;
+             width:70%;
+            height:38px;
+            border: 1px solid rgb(255, 255, 255); 
+            
+        }
+        .sectext span{
+            display: inline-block;
+        }
+        .sectext .f{
+            font-size:19px;
+        }
+        .sectext .s{
+            font-size:15px;
+        }
+        .sectext1{
+            font-size:17px;
+            display: inline-block;
+            vertical-align: top;
+            margin-top:-40px;
+              width:11%;
+            height:25px;
+            margin-left: 88%;
+            border: 1px solid rgb(253, 253, 253); 
+        }
+        #blo{
+            margin-top:3px;
+            width:100%;
+            height:30px;
+            border:1px solid rgb(255, 255, 255);
+        }
+        #blo #f{
+            margin-top:3px;
+            margin-left:3%;
+            display:inline-block;
+            width:50%;
+            height:20px;
+            font-size:19px;
+            border:1px solid rgb(252, 252, 252);
+        }
+        #blo #s{
+            margin-top:3px;
+            margin-left:5%;
+            font-size:19px;
+            display:inline-block;
+            width:40%;
+            height:20px;
+            border:1px solid rgb(250, 250, 250);
+        }
+        #blo #f i{
+            color:red;
+        }
+        #blo #s i{
+            color:green;
+        }
+        #img{
+            vertical-align:top;
+            display:inline-block;
+        }
+        #paycard{
+            color:#8f98c2;
+            margin-left:4%;
+            display:inline-block;
+            margin-top:1px;
+            height: 60px;
+            width: 70%;
+            /* border: 1px solid #000; */
+            margin-top: 5px;
+        }
+         #paycard1{
+            vertical-align: top;
+            display: inline-block;
+            margin-left: 3px;
+            font-size:18px;
+        }
+        #paycard2{
+            
+         display: block;
+         margin-left: 3px;
+         margin-top: 5px;
+         font-size:14px;
+        } 
+        #phone{
+            height:68px;
+            width:90px;
+            /* border:1px solid #000; */
+        }
+        #phone img{
+            height:100%;
+            width:100%; 
+        }
+        #upii{
+            vertical-align:top;
+            margin-left:10px;
+            display: inline-block;
+             height:68px;
+            width:80%;
+            /* border:1px solid #000; */
+         }
+         #upii span img{
+             
+             width:20px;
+             height:20px;
+             margin-top:-10px;
+         }
