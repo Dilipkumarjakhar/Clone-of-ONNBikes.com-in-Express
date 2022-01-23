@@ -24,9 +24,11 @@ app.get("/bikedisplay",async(req,res)=>{
 
 })
 
-app.get("/bikedetails",async(req,res)=>
+app.get("/bikedetails/:key",async(req,res)=>
 {
-    return res.render("bikedetails")
+    const bikeinfo=await Bike.findById(req.params.key);
+    console.log(bikeinfo)
+    return res.render("bikedetails",{bikeinfo:bikeinfo})
 })
 
 // dilip         
