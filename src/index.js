@@ -29,7 +29,7 @@ app.get("/bikedetails",async(req,res)=>
     return res.render("bikedetails")
 })
 
-// dilip         
+// home pages        
 app.use("/home",(req,res)=>{
     res.render("home")
 })
@@ -62,6 +62,7 @@ app.post("/register",async(req,res)=>{
 }
 })
 
+//user login 
 app.post('/login',async(req,res)=>{
 try{
 
@@ -74,7 +75,7 @@ try{
     const ismatch=await bcrypt.compare(password,data_base_pass.password)
      console.log('ismatch:', ismatch)
      if(ismatch){
-        res.status(201).render("/home");
+        res.status(201).render("home");
         // res.send("login successful");
         // res.status(201).render("/");
     }
@@ -85,6 +86,20 @@ try{
     return res.status(400).send("Invalid login Details");
 
 }
+})
+
+// payment methods
+app.use("/paymentpage",(req,res)=>{
+    res.render("paymentpage")
+})
+app.use("/paycc",(req,res)=>{
+    res.render("paycc")
+})
+app.use("/otp",(req,res)=>{
+    res.render("otp")
+})
+app.use("/thanks",(req,res)=>{
+    res.render("thanks")
 })
 
 module.exports=app;

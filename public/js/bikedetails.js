@@ -1,16 +1,13 @@
 document.getElementById("payment").addEventListener("click",showPaymentPage);
 
     function showPaymentPage(){
-        window.location.href='payment page.html';
+        window.location.href='/paymentpage';
     }
     // let date=JSON.parse(localStorage.getItem("antim"))
 
     let date=["22-7-12","24-7-12",2]
    
-
-
-	
-
+  
     let insuresubmitflag=false;
 
     let bikedata=JSON.parse(localStorage.getItem("bikedata"));
