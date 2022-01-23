@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body{
+    background:#7e8e9f;
+}
+#main{
+    height:500px;
+    width:500px;
+    margin:80px auto;
+    /* border:1px solid #000; */
+    background:rgb(243, 237, 237);
+    box-shadow:0.1rem 0.1rem 0.8rem 0.1rem;
+}
+#fst,#sec{
+    height:80px;
+    width:99%;
+    margin:2px auto;
+    margin-top: 10px;
+    /* border:1px solid #000; */
+}
+#fst1,#sec1{
+    margin-top:3%;
+    display: inline-block;
+    
+    height:40px;
+    width:49%;
+    /* border:1px solid #000; */
+}
+#fst2,#sec2{
+    
+    display: inline-block;
+    
+    height:40px;
+    width:49%;
+    /* border:1px solid #000; */
+}
+input{
+    margin-top: 1px;
+    margin-left: 5px;
+    font-size:18px;
+    font-family: cursive;
+    height:30px;
+    width:90%;
+    border-radius:10px;
+}
+/* #Submit{
+    margin:10px auto;
+    height:30px;
+    width: 97%;
+    border:1px solid #000;
+} */
+button{
+    margin-left: 175px;
+    margin-top: 20px;
+    height:35px;
+    font-size: 20px;
+    width: 20%;
+    color: aliceblue;
+    border-radius: 10px;border: none;
+    border:1px solid #000;
+    
+    background-color: rgb(76, 177, 218);
+}
+#h4{
+    margin:20px auto;
+    height:50px;
+    width:99%;
+    border:1px solid rgb(219, 219, 219);
+}
+#h4 h4{
+    font-size:21px;
+    color:rgb(56, 56, 75);
+    justify-content:center;
+    text-align:center;
+    align-items:center;
+    
+
+    
+}
+#total{
+    margin:10px auto;
+    height:50px;
+    width:99%;
+    border:1px solid rgb(238, 234, 234);
+    /* background-color: rgb(172, 187, 189); */
+}
+#total #price{
+    margin:10px auto 35px;
+    height:30px;
+    width:40%;
+    color: rgb(95, 70, 70);
+    font-family: cursive;
+    font-weight: 800;
+    font-size:20px;
+    /* border:1px solid rgb(247, 243, 243); */
+}

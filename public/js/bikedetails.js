@@ -1,7 +1,7 @@
 document.getElementById("payment").addEventListener("click",showPaymentPage);
 
     function showPaymentPage(){
-        window.location.href='payment page.html';
+        window.location.href='/paymentpage';
     }
     let date=JSON.parse(localStorage.getItem("antim"))
 

@@ -1,0 +1,25 @@
+
+*{
+    margin: 0;
+    padding: 0;
+ box-sizing: border-box;
+}
+html{
+    background-color: rgb(165, 104, 223);
+}
+h1{
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10%;
+    letter-spacing: 3px;
+}
+/* #text{
+    height:100px;
+    width:300px;
+    border: 1px solid;
+} */
+

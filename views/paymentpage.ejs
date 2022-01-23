@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/payment page.css">
+        <title>Document</title>
+  
+</head>
+<body>
+    <div id="main">
+        <div id="left" class='box'>
+            <div id="heading">
+                <h1>Payment Options</h1>
+            </div>
+            <div class="pay" onclick="paycc()">
+                
+                <span id='img'><img src="../../images/img/card.jpg" alt=""></span>
+                     <div id="paycard">
+
+                    <span id='paycard1'>Pay Using CC Avenue</span>
+                    <span id='paycard2'>
+                        Pay via Credit & Debit card , Net Banking , UPI , etc</span>
+                    </div>
+            </div>
+            <div class="pay" onclick="paytm()">
+                <span><img src="../../images/img/paytm_icon.png" alt=""></span>
+                <span class='ptm'>Paytm</span>
+                
+            </div>
+            <div class="pay" onclick="phonepe()">
+                <span id='phone'><img src="../../images/img/phone.png" alt=""> </span>
+                <span class='PhonePe'>PhonePe/BHIM UPI</span>
+            </div>
+            <div class="pay">
+                <span><img src="../../images/img/upi.png" alt=""> </span>
+                <div id="upii">
+                    
+                    
+                    <input type="text" placeholder="Enter UPI address" id=upi>
+                    <span style="display:inline;"><button id='button'>
+                        <a href="/otp">Go</a>
+                    </button> </span>
+                    <span style="display: block;margin-left:30px; font-size:15px" >
+                        Powered by DBS
+                            <span><img src="../../images/img/dbs.jpg" alt=""> </span>
+                             
+                    </div>
+                </div>
+                <div class="pay" onclick="mobiKwik()">
+                    <span><img src="../../images/img/mobikwik.png" alt=""> </span>
+                
+                <span class='mob'>MobiKwik</span>
+            </div>
+
+        </div>
+        <div id="right" class='box'>
+
+            <div id="heading">
+                <h1>Booking Details</h1>
+            </div>
+            <div id="box">
+                <div id="firstdiv">
+                    <div id="baj">
+                        
+                        <span id='ct'>BAJAJ CT 100</span>
+                    </div>
+                        <div id="baj1">
+                    <span id='totalprice'>₹108</span>
+                    </div>
+                    <hr>
+                    <div id="start">
+                        
+                        <span >START TRIP</span>
+                          <span id='std'>28DEC 21TUESDAY02:00 PM</span>
+                        </div>
+                        <div id="end">
+                            <span >END TRIP</span>
+                            <span id='endd'></span>
+                    </div>
+                    <hr>
+                    <div id="picked">
+
+                        <p>PICKUP & RETURN LOCATION</p>
+                    </div>
+                    <hr>
+                    <div id='py'>
+                        <span>Payment Breakdown </span>
+
+                    </div>
+                    <!-- <hr> -->
+                    <div id="tar">
+
+                        <span>Tariff</span>
+                        <span>Inclusive of all taxes</span>
+                    </div>
+                    <div id="tarp">
+                        <span id='totalprice1'>₹89</span>
+
+                    </div>
+                    
+                    <div id="total">
+                           <div id="payable">
+                               <span >Payable Amount</span>
+
+                           </div>
+                           <div id="rup">
+                               <span id='totalprice2'>₹108</span>
+                            </div>
+                    </div>
+                 
+                </div>
+                <div id="secdiv">
+                    <div class='secmain'>
+                        <div class="sectext">
+                            
+                            <span class='f'>Kilometers Eligible</span>
+                            <span class='s'>The number of kms you can ride at no extra charge</span>
+                        </div>
+                        <div class="sectext1">
+                            <span>57 Km</span>
+                        </div>
+                    </div>
+
+                    <div class='secmain'>
+                        <div class="sectext">
+
+                            <span class='f'>Excess Kms Fare</span>
+                                <span class='s'> You can ride the eligible km for free excluding fuel</span>
+                         </div>
+                            <div class="sectext1">
+                                <span>₹2/km</span>
+                            </div>
+                         </div>
+
+                            <div class='secmain'>
+                                <div class="sectext">
+
+                                <span class='f'>Speed Limit</span><br>
+                                  <span class='s'> Penalty applicable in case of violation</span>
+                                   </div>
+                                <div class="sectext1">
+                                     <span>90 km/hr</span>
+                                </div>
+                            </div>
+                                <div class='secmain'>
+                                    <div class="sectext">
+
+                                    <sapn class='f'> Late Return(First two hours of delay)</sapn>
+                                    <span class='s'>  ₹11/hour after two hours of delay</sapn>
+                                        </div>
+                                        <div class="sectext1">
+                                            <sap n>₹100</sap>
+
+                                        </div>
+                                    </div>
+                        <div id='blo'>
+                            <div id="f">
+                                <!-- <i class="far fa-times-circle"></i> -->
+                                <i class="fas fa-times-circle"></i>
+                                <sapn>Excludes fuel </sapn>
+                            </div>
+                            <div id="s">
+                                <i class="fas fa-check-circle"></i>
+                               <sapn>Includes all taxes</sapn>
+                           </div>
+                           </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/paymentpage.js"></script>
+</html>
