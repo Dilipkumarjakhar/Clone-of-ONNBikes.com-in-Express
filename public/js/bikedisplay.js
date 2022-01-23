@@ -214,7 +214,7 @@ function displaydata(data)
 {
     data.map((item)=>
     {
-        console.log(item)
+        
         let div=document.createElement("div");
 
         let img=document.createElement("img");
@@ -249,7 +249,7 @@ function displaydata(data)
 
 let bikeCheckboxes=document.querySelectorAll(".brand")
 
-console.log(bikeCheckboxes);
+
 
 bikeCheckboxes.forEach((checkbox)=>
 {
@@ -337,9 +337,14 @@ function getpopup(item)
 { 
 	localStorage.setItem("bikedata",JSON.stringify(item));
 	itemid=item._id;
+	console.log(itemid)
+	
+	
+	
 	
 	popup.classList.add('active');
 }
+
 
 closebtn.addEventListener("click",()=>
 {
@@ -348,8 +353,8 @@ closebtn.addEventListener("click",()=>
 
 function gotodetails()
 {
-	
-	window.location.href="/bikedetails"
+	let link=`/bikedetails/${itemid}`
+	window.location.href=link;
 
 
 	

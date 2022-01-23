@@ -7,15 +7,23 @@ document.getElementById("payment").addEventListener("click",showPaymentPage);
 
    
    
+let bikedata;
 
-
+function showbike(items)
+{
+    bikedata=JSON.parse(items)
+    console.log(bikedata);
+    totalfunc(bikedata)
+}
 	
 
     let insuresubmitflag=false;
 
-    let bikedata=JSON.parse(localStorage.getItem("bikedata"));
+    // let bikedata=JSON.parse(localStorage.getItem("bikedata"));
     console.log(bikedata)
 
+   function totalfunc(bikedata)
+   {
     let brand=document.createElement("h4")
     brand.innerHTML=bikedata.brand.toUpperCase();
 
@@ -58,6 +66,7 @@ document.getElementById("payment").addEventListener("click",showPaymentPage);
 
     let totalamount=bikedata.price*date[2]
     localStorage.setItem("totalamount",totalamount)
+   }
 
    
     
@@ -98,7 +107,7 @@ document.getElementById("payment").addEventListener("click",showPaymentPage);
         if(inp.checked==true)
         {
             document.querySelector("#buttonpayment").classList.add('activebutton')
-            document.getElementById("buttonpayment").innerText=`PAYMENT ${totalamount}`
+            document.getElementById("buttonpayment").innerText=`PAYMENT`
             
         }
         else
