@@ -4,20 +4,17 @@ our project Clone of https://www.onnbikes.com/ Hello There, My Name is Sudhanshu
 
 <div>
 
-    <h1>OnnBilke-Clone-website</h1>
-
-    <h5>
+<h1>OnnBilke-Clone-website</h1>
+<h5>
         This is a Full Function Website that allow user to book two wheeler bike for hourly,weekly and monthly ride with great user interface with minimalist feature.  
-
-    </h5>
-
-    <h3>
+</h5>
+<h3>
 
         TechStack : HTML | CSS | Javascript | MongoDB | NodeJS | ExpressJS
-    </h3>
+</h3>
 
 Home
-<img src="https://github.com/Dilipkumarjakhar/Clone-of-ONNBikes.com-in-Express/blob/main/public/images/Screenshot%20(1240).png" alt="" />
+<img src="https://github.com/Dilipkumarjakhar/Clone-of-ONNBikes.com-in-Express/blob/main/public/images/Screenshot%20(1240).png" alt="" ></img>
 
 Login 
 
