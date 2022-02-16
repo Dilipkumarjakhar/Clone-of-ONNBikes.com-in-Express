@@ -10,32 +10,42 @@
 
 <br/>
 <br/>
-Home
+<p>Home</p>
+<br/>
+<br/>
 <img src="https://github.com/Dilipkumarjakhar/Clone-of-ONNBikes.com-in-Express/blob/main/public/images/Screenshot%20(1240).png" alt="" ></img>
 
 <br/>
 <br/>
 
 
-Login 
+<p>Login</p> 
+<br/>
+<br/>
 <img src="https://github.com/Dilipkumarjakhar/Clone-of-ONNBikes.com-in-Express/blob/main/public/images/Login.png" alt="" ></img>
 
 
 <br/>
 <br/>
-BikesDetails 
+<p>BikesDetails</p> 
+<br/>
+<br/>
 <img src="https://github.com/Dilipkumarjakhar/Clone-of-ONNBikes.com-in-Express/blob/main/public/images/Bike.png" alt="" ></img>
 
 
 <br/>
 <br/>
-BikeRente
+<p>BikeRente</p>
+<br/>
+<br/>
 <img src="https://github.com/Dilipkumarjakhar/Clone-of-ONNBikes.com-in-Express/blob/main/public/images/BikeRent%20(2).png" alt="" ></img>
 
 
 <br/>
 <br/>
-PaymentPage  
+<p>PaymentPage</p>  
+<br/>
+<br/>
 <img src="https://github.com/Dilipkumarjakhar/Clone-of-ONNBikes.com-in-Express/blob/main/public/images/PaymentPage.png" alt="" ></img>
 
 
