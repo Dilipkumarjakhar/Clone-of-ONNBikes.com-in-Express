@@ -8,11 +8,8 @@ const app=express()
 const Bike=require("./model/bike.model.js")
 const bikecontroller=require("./controller/bike.controller.js")
 
-
 app.use(express.json())
 app.use(express.static("public"))
-
-
 app.set("view engine","ejs")
 app.use(express.urlencoded({extended:false}))
 
@@ -59,7 +56,7 @@ app.post("/register",async(req,res)=>{
      const register=await storuserdata.save();
     //  res.sendStatus(201).render("/home");
         }catch(err){
-    return res.status(500).send(err);
+    // return res.status(500).send(err);
     
 }
 })
