@@ -29,6 +29,10 @@ app.get("/bikedetails/:key",async(req,res)=>
 })
 
 // dilip         
+app.use("/",(req,res)=>{
+    res.render("home")
+})
+// dilip         
 app.use("/home",(req,res)=>{
     res.render("home")
 })

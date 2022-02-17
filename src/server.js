@@ -1,9 +1,12 @@
 const app=require("./index.js")
 
+const port = process.env.PORT || 3000
+
+
 const connect=require("./config/db.js")
 
 
-app.listen(2345,async()=>
+app.listen(port,async()=>
 {
     try{
         await connect();
